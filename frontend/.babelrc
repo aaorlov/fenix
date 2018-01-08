@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 3 versions", "safari >= 7", "not ie <= 10"]
+      }
+    }],
+    "es2017",
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-runtime",
+    "array-includes"
+  ],
+  "env": {
+  }
+}

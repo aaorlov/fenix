@@ -1,12 +1,7 @@
 body {
-  width: 200px;
-  height: 400px;
   background-color: red;
 
   p {
-    position: relative;
-    top: 1px;
-    z-index: 1;
-    color: red;
+    display: flex;
   }
 }

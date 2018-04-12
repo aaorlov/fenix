@@ -11,8 +11,8 @@ module.exports = webpackMerge(
   {
     output: {
       path: helpers.root('dist'),
-      publicPath: '/assets/',
-      filename: 'static/[name].[hash].bundle.js',
+      publicPath: '/',
+      filename: 'static/bundle.[name].[hash].js',
       chunkFilename: '[name].[chunkhash].chunk.js',
       library: '[name]'
     },

@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --hot --inline --open",
-    "build": "npm run clean && cross-env NODE_ENV=production webpack --progress --hot --color",
+    "build": "npm run clean && cross-env NODE_ENV=development webpack --progress --hot --color",
     "stylelint": "stylelint \"src/**/*.scss\" --syntax scss",
     "clean": "rimraf ./dist"
   },

@@ -6,9 +6,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const helpers = require('./helpers');
 
 module.exports = options => ({
+  context: helpers.root('src'),
   entry: {
-    polyfills: 'babel-polyfill',
-    main: './src/index.jsx'
+    app: './index.jsx'
   },
   resolve: {
     modules: [
@@ -85,7 +85,7 @@ module.exports = options => ({
     }),
     new HtmlWebpackPlugin({
       title: 'Fenix project',
-      template: 'src/index.html',
+      template: 'index.html',
       filename: 'index.html',
       inject: 'body',
       chunksSortMode: (a, b) => {

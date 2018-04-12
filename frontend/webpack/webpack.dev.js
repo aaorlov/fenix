@@ -13,15 +13,19 @@ process.env.ENV = 'development';
 module.exports = webpackMerge(
   commonConfig({ env: process.env.NODE_ENV }),
   {
-    devtool: 'inline-source-map',
+    /** for debug */
+    devtool: 'source-map',
     output: {
       path: helpers.root('dist'),
-      publicPath: '/',
+      publicPath: '/assets/',
       filename: 'static/[name].[hash].bundle.js',
       chunkFilename: '[name].[chunkhash].chunk.js',
+      /** create output as library */
       library: '[name]',
-      libraryTarget: 'var',
-      sourceMapFilename: '[file].map'
+      sourceMapFilename: '[file].map',
+      /** hash type and length (default hex 20) */
+      hashDigest: 'hex',
+      hashDigestLength: 8
     },
     devServer: {
       // contentBase: 'dist',

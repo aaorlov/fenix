@@ -1,4 +1,6 @@
 const webpackMerge = require('webpack-merge');
+const webpack = require('webpack');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 const helpers = require('./helpers');
 const commonConfig = require('./webpack.common.js');
@@ -17,7 +19,14 @@ module.exports = webpackMerge(
       library: '[name]'
     },
     plugins: [
-
+      new webpack.optimize.UglifyJsPlugin({
+        compress: { warnings: false }
+      }),
+      new CompressionPlugin({
+        algorithm: 'gzip',
+        deleteOriginalAssets: true,
+        test: /\.(js|css|svg)/
+      })
     ]
   }
 );

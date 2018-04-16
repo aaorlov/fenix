@@ -1,0 +1,11 @@
+body {
+  background-color: blue;
+}
+
+.first {
+  display: flex;
+
+  & .child {
+    position: absolute;
+  }
+}

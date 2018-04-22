@@ -1,0 +1,5 @@
+{
+  "HOST": "smtp.ethereal.email",
+  "PORT": 587,
+  "FROM": "<support@babypass.com>"
+}

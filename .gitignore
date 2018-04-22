@@ -1,9 +1,8 @@
 # dependencies
-frontend/node_modules
-frontend/jspm_packages
-frontend/bower_components
+node_modules/
 
-frontend/dist
+# build
+dist/
 
 # IDE files
 .idea
@@ -11,5 +10,9 @@ frontend/dist
 # Logs
 *.log
 
-#Mac
+# Mac
 .DS_Store
+
+# nyc
+.nyc_output
+coverage

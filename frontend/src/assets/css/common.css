@@ -1,0 +1,21 @@
+:root {
+  --mainColor: yellow;
+}
+
+:global .evico-frontend {
+  position: relative;
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--mainColor);
+  color: #000;
+  font-family: 'Arial', sans-serif;
+}

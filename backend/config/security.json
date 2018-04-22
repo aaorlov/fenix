@@ -1,0 +1,16 @@
+{
+  "PASSWORD_SALT_LENGTH": 10,
+  "SSL": {
+    "CSR_DIR": "creds/ssl/csrs",
+    "PRIVATE_KEY_FILE_NAME": "jwt.key",
+    "PUBLIC_KEY_FILE_NAME": "jwt.key.pub"
+  },
+  "TOKEN": {
+    "ALGORITHM": "RS256",
+    "EXPIRES_IN": "7d",
+    "PASSPHRASE": "GBSFO"
+  },
+  "FIREBASE": {
+    "ADMIN_KEY": "creds/firebase/admin.json"
+  }
+}

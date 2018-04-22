@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "babypass-eadff",
+  "private_key_id": "c13ca5a6d8751fa072c4bd35c479152a99602df3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC38WLrksQKr1x1\nXS4DF0+BE62FiP+Vq7BUzF1IZWQ7QrDxn5k6XtT6/aW6WI/deQF7bdLjZz+k0QxE\nDge/ECmQy6T9AMF2i6ohqq66NQDULF6EPDjHxH1y7f603HyKO4rSWDqV2k5/PA0M\nzMpJdD6XD4mC9vO/7ixj5JKoB+ZHIwLqfn0VTPHUpt5DVJdvxhibKaQPP8PxUKnM\ns6lmMtCNBT5ntl9uLBy4gjBql38GhBYikKb9iNh314js5mVYVZUTWtPQujPIAwrl\nKHZdcIkKSyIq6/l5QzL3kAxnaNv2yFsUj2ijIKCw5UF2cbjapG2uNBVOJ8dP47Np\nvHs6SneFAgMBAAECggEADBvbnXLkrWhkX4SCDCmLbg2X0W/WlWl/OuHWLTchfUYz\nZECTo3RNNHWgpI8Cb3uxBYlSBe7M0YKCenNq/qCnf9TsGEylr7JbgYpdJLxrAMyn\n7zAQs9PjRz7UEt9l4mqvhY/R0X4Ux0ryd/p+QY4htauL659qpeKdsPjBz8ZvWhTe\n62IuypEg3D5TSWqkpn/DMWaENhtyDvzjcW4h5nk/sxqFBdbm+73FGYJWLSw4T2iI\n9ArpPU2eROjwZkbxdSSZmWPHxBb6UaCepReWUMhDlIe0fPhjd8CTp/ZrFAXvc+Gq\nJ+Ab1hI9/JUbGSRIuSlRRwk7Bb/eqeRoTFdY7YAwSQKBgQD06XqK8+yXTDAQDk1K\nuypCGeoU1066VEAcRotmSq96GqStPp1GHuyuAAeeLoy5MukMWrzilnvPSjEhCwki\n8YOQvfuhpz2yRZb2ipPDV4RhxplmAzyKtI7SHOTMgWQhvpPlumgX7OYNlynxRevy\nv7elyydnPVZcmIJ0nUIUFQHRDQKBgQDARUcqaae2UnSMgV8Okeaqt+qBm57YISAD\nuMSwE2ta0SCblS/lL+6MkOdqjTF6JduMDZZdc+vB9LercN0r2RZrZ5S9TZgS7SkV\n1uzaC7fTQPKila0QFfsC2GFINZcZ+QCyy2ZVs00/dXaPJcZEh03F1Wa45WdXD1Ce\nioPZ9ZVyWQKBgQCBJLSnnOQ/C7+0V7ZOF8+6t2uFvdsXyeFch55uPCe33WDEseXA\n2gG35vAdazJtXfkhuJ8tZGi478hkQit5L51Or7+GiGeyH5vxOTWdpgJ6hHzTHBXK\nlldRWEcVx40DdjkKxHarVxIgTHujbFl00b+HP07x05g8j3cLAvmbGVCx6QKBgD6o\n1S5/TEbgzFbV+pKW/eN5GJWwj63D7dkIqCDx0zS/nq7VicxZOJbaynAxH4S9PbWA\n4BYIpzaIeCsJFyspDmNmWFTxKrRQUelqJ7pPw1K3gdt2h/YME8ezmNCdlmbCfXXH\nT8xyKKSbtU2lc931cmUczONI78qxlQZ2Ac5QeKnRAoGBALj+TFj7yWs4vQ51U6AH\nQCTq6AbQ6pcWllUaH27mpMvjTfepFvaEOmj7oj8SrI7W/NjqEGVUVmwvqCYLKd15\ncuiAx72Nh/hPXuB+OyXl/QeFf7xoi7loHoOPikM1pgsc7o/Rsk/6xw+XjNWriY4b\n8LUaA71+HPhEXIUUOIL/CWWJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-79x9l@babypass-eadff.iam.gserviceaccount.com",
+  "client_id": "108975326922551481460",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-79x9l%40babypass-eadff.iam.gserviceaccount.com"
+}

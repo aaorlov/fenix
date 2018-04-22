@@ -1,0 +1,10 @@
+{
+  "APP_NAME": "BabyPass",
+  "PORT": "4000",
+  "SOURCE_DIR": "src",
+  "DOMAIN": null,
+  "JSON_LIMIT": "4mb",
+  "REPOSITORY": {
+    "DIR": "repository"
+  }
+}

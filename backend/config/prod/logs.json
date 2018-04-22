@@ -1,0 +1,5 @@
+{
+  "CLEAR_EACH": "7d",
+  "DIRECTORY": "logs",
+  "BUFFER_INTERVAL": 1000
+}

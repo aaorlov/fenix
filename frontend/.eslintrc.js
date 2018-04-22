@@ -12,7 +12,6 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     'import/no-extraneous-dependencies': ['error', { 'devDependencies': true }],
     'indent': ['error', 2, {'SwitchCase': 1}],
-    'jsx-quotes': ['error', 'prefer-single'],
     'jsx-a11y/no-static-element-interactions': 'off',
     'max-len': ['error', 120],
     'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 1 }],
